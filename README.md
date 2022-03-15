@@ -3,7 +3,7 @@ Eli Lilly & Company
 
 # APP VIDEO CAPTURED
 
-https://user-images.githubusercontent.com/44498480/146683985-7708bbaa-2d6a-47aa-869f-ec5237d3d34d.mp4
+https://user-images.githubusercontent.com/44498480/158452636-cf4b1956-4eda-487f-bb05-42065abde157.mp4
 
 
 # APP SCREEN SHOTS
