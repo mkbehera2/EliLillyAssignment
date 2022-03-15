@@ -1,5 +1,5 @@
 # EliLillyAssignment : E-Commerce Simple
-GoldmanSach-APOD
+Eli Lilly & Company
 
 # APP VIDEO CAPTURED
 
