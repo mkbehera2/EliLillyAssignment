@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Eli Lilly &amp; Company</string>
+    <string name="store">Store</string>
+    <string name="store_name">Store :</string>
+    <string name="store_info_label">Nearest Store</string>
+    <string name="city_label">City :</string>
+    <string name="address_label">Address :</string>
+    <string name="checkout">Checkout</string>
+    <string name="product_name">Name :</string>
+    <string name="details">Details :</string>
+    <string name="price">Price :</string>
+    <string name="total_price">Total :</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="quantity">quantity :</string>
+    <string name="delete">Delete</string>
+    <string name="address_hint">Enter your delivery address here</string>
+    <string name="success_msg">Order placed successfully</string>
+    <string name="dismiss">SHOP AGAIN</string>
+    <string name="item_descriptions">Item descriptions</string>
+    <string name="item_name">Item Name</string>
+    <string name="product_default_price">Rs. 8,999</string>
+    <string name="action_cart">Cart</string>
+    <string name="empty_screen_desc">Please add your content here.</string>
+    <string name="empty_cart_text">Your Cart is empty !</string>
+    <string name="shop_now_text">SHOP NOW</string>
+    <string name="payment_text">PAYMENT</string>
+    <string name="empty_item">Rs 0:00</string>
+    <string name="remove_text">Remove</string>
+    <string name="shop_more_text">Shop More</string>
+    <string name="summary_text">Order Summary</string>
+    <string name="address_details">Enter address you want us to deliver</string>
+    <string name="checkout_progress">Checkout in progress</string>
+</resources>

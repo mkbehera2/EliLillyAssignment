@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    tools:context=".view.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/store_info_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/store_info_label"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/horizontal_minimum_space"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/store_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/store_name"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/horizontal_minimum_space"
+        app:layout_constraintTop_toBottomOf="@+id/store_info_label"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/store_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginStart="@dimen/horizontal_minimum_space"
+        app:layout_constraintTop_toBottomOf="@+id/store_info_label"
+        app:layout_constraintLeft_toRightOf="@+id/store_name_label"/>
+
+    <TextView
+        android:id="@+id/city_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_label"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/horizontal_minimum_space"
+        app:layout_constraintTop_toBottomOf="@+id/store_name_label"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginStart="@dimen/horizontal_minimum_space"
+        app:layout_constraintTop_toBottomOf="@+id/store_name_label"
+        app:layout_constraintLeft_toRightOf="@+id/city_label"/>
+
+    <TextView
+        android:id="@+id/address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address_label"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/horizontal_minimum_space"
+        app:layout_constraintTop_toBottomOf="@+id/city_name"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginStart="@dimen/horizontal_minimum_space"
+        app:layout_constraintTop_toBottomOf="@+id/city_name"
+        app:layout_constraintLeft_toRightOf="@+id/address_label"/>
+
+    <View
+        android:id="@+id/border"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/border"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/vertical_minimum_space"
+        app:layout_constraintTop_toBottomOf="@+id/address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_product_details"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/border"
+        app:layout_constraintBottom_toTopOf="@id/btn_checkout"
+        tools:listitem="@layout/cv_product_details" />
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="@dimen/horizontal_minimum_space"
+        android:layout_marginEnd="@dimen/horizontal_minimum_space"
+        android:layout_marginBottom="@dimen/margin_vertical_small"
+        android:text="@string/summary_text"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/gen_white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

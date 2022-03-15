@@ -1,0 +1,59 @@
+[
+  {
+    "productId": "ELI100",
+    "productName": "Eli Product1",
+    "productType": "health care",
+    "productDescription": "product description eli100",
+    "productPrice": 60.00,
+    "productImage": ""
+  },
+  {
+    "productId": "ELI101",
+    "productName": "Eli Product2",
+    "productType": "health care",
+    "productDescription": "product description eli101",
+    "productPrice": 90.00,
+    "productImage": ""
+  },
+  {
+    "productId": "ELI102",
+    "productName": "Eli Product3",
+    "productType": "health care",
+    "productDescription": "product description eli102",
+    "productPrice": 10.00,
+    "productImage": ""
+  },
+  {
+    "productId": "ELI103",
+    "productName": "Eli Product4",
+    "productType": "health care",
+    "productDescription": "product description eli103",
+    "productPrice": 30.00,
+    "productImage": ""
+  },
+  {
+    "productId": "ELI104",
+    "productName": "Eli Product5",
+    "productType": "health care",
+    "productDescription": "product description eli104",
+    "productPrice": 50.00,
+    "productImage": ""
+  },
+  {
+    "productId": "ELI105",
+    "productName": "Eli Product6",
+    "productType": "health care",
+    "productDescription": "product description eli105",
+    "productPrice": 200.00,
+    "productImage": ""
+  },
+  {
+    "productId": "ELI106",
+    "productName": "Eli Product7",
+    "productType": "health care",
+    "productDescription": "product description eli106",
+    "productPrice": 99.99,
+    "productImage": ""
+  }
+
+]
